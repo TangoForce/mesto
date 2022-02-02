@@ -1,0 +1,21 @@
+@media screen and (min-width: 320px) {
+    .profile__profile-info {
+        display: grid;
+        color: #FFFFFF;
+        align-items: center;
+        grid-template-columns: 2, 1fr;
+        grid-template-rows: 2, 1fr;
+        grid-template-areas: 
+        "name button"
+        "description .";
+        row-gap: 14px;
+        column-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .profile__profile-info {
+        row-gap: 16px;
+        column-gap: 18px;
+    }
+}

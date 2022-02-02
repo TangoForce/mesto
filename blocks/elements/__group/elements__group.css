@@ -1,0 +1,7 @@
+@media screen and (min-width: 320px) {
+    .elements__group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

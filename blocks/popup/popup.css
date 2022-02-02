@@ -1,0 +1,15 @@
+@media screen and (min-width: 320px) {
+    .popup {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        display: none;
+    }
+}
+
+.popup:target {
+    display: block;
+}
