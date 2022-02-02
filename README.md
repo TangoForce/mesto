@@ -6,4 +6,4 @@
 
 Ссылка на проект: https://tangoforce.github.io/mesto/
 
-3. Использовались flex, grid, js.
+3. Использовались html, css, js.
