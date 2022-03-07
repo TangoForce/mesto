@@ -11,7 +11,7 @@
 <body>
     <div class="page">
         <header class="header">
-            <img class="header__logo" src="./images/Vector.png" alt="надпись Место">
+            <img class="header__logo" src="./images/Vector.svg" alt="надпись Место">
         </header>
         <main>
             <section class="profile">
@@ -20,7 +20,7 @@
                     <div class="profile__profile-info">
                         <h1 class="profile__name">Жак-Ив Кусто</h1>
                         <p class="profile__description">Исследователь океана</p>
-                        <button class="profile__edit-button" type="button" onclick="openForm()"></button>
+                        <button class="profile__edit-button" type="button"></button>
                     </div>
                 </div>
                 <button class="profile__add-button" type="button"></button>
@@ -30,63 +30,63 @@
                 <div class="elements__element"><img class="elements__picture"
                         src="./images/kirill-pershin-1088404-unsplash.png" alt="фотография старого храма">
                     <div class="elements__group">
-                        <h3 class="elements__name">Карачаевск</h3>
-                        <button class="elements__like"></button>
+                        <h2 class="elements__name">Карачаевск</h2>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
                 <div class="elements__element"><img class="elements__picture"
                         src="./images/kirill-pershin-1404681-unsplash.png" alt="фотография вечерних холмов">
                     <div class="elements__group">
-                        <h3 class="elements__name">Гора Эльбрус</h3>
-                        <button class="elements__like"></button>
+                        <h2 class="elements__name">Гора Эльбрус</h2>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
                 <div class="elements__element"><img class="elements__picture"
                         src="./images/kirill-pershin-1556355-unsplash.png" alt="фотография заснеженных гор и лесов">
                     <div class="elements__group">
-                        <h3 class="elements__name">Домбай</h3>
-                        <button class="elements__like"></button>
+                        <h2 class="elements__name">Домбай</h2>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
                 <div class="elements__element"><img class="elements__picture"
                         src="./images/kirill-pershin-1404681-unsplash.png" alt="фотография вечерних холмов">
                     <div class="elements__group">
-                        <h3 class="elements__name">Гора Эльбрус</h3>
-                        <button class="elements__like"></button>
+                        <h2 class="elements__name">Гора Эльбрус</h2>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
                 <div class="elements__element"><img class="elements__picture"
                         src="./images/kirill-pershin-1556355-unsplash.png" alt="фотография заснеженных гор и лесов">
                     <div class="elements__group">
-                        <h3 class="elements__name">Домбай</h3>
-                        <button class="elements__like"></button>
+                        <h2 class="elements__name">Домбай</h2>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
                 <div class="elements__element"><img class="elements__picture"
                         src="./images/kirill-pershin-1088404-unsplash.png" alt="фотография старого храма">
                     <div class="elements__group">
-                        <h3 class="elements__name">Карачаево-Ч...</h3>
-                        <button class="elements__like"></button>
+                        <h2 class="elements__name">Карачаево-Ч...</h2>
+                        <button class="elements__like" type="button"></button>
                     </div>
                 </div>
             </section>
         </main>
         <footer class="footer">
-            <h2 class="footer__copyright">© 2022 Mesto Russia</h2>
+            <p class="footer__copyright">© 2022 Mesto Russia</p>
         </footer>
     </div>
-    <section class="popup popup_opened">
-        <form class="popup__container">
-            <div class="popup__content">
+    <section class="popup">
+        <div class="popup__container">
+            <form class="popup__form">
                 <h2 class="popup__title">Редактировать профиль</h2>
-                <input placeholder="Жак-Ив Кусто" class="popup__text" type="text">
+                <input placeholder="Жак-Ив Кусто" class="popup__name" type="text">
                 <hr class="popup__line">
-                <input placeholder="Исследователь океана" class="popup__text" type="text">
+                <input placeholder="Исследователь океана" class="popup__job" type="text">
                 <hr class="popup__line">
-                <button class="popup__save-button" type="button" onclick="closeForm()">Сохранить</button>
-                <button class="popup__close-button" type="button" onclick="closeForm()"></button>
-            </div>
-        </form>
+                <button class="popup__save-button" type="submit">Сохранить</button>
+                <button class="popup__close-button" type="button"></button>
+            </form>
+        </div>
     </section>
     <script src="script.js"></script>
 </body>

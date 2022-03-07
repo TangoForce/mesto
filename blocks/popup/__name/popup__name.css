@@ -1,0 +1,22 @@
+@media screen and (min-width: 320px) {
+    .popup__text {
+        width:238px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 17px;
+        color: #000000;
+        text-overflow: ellipsis;
+        white-space: normal;
+        overflow: hidden;
+        border: none;
+        margin-left: 22px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .popup__text {
+    width: 358px;
+    margin-left: 36px;
+    }
+}

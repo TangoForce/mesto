@@ -7,9 +7,9 @@
 
 @font-face {
   font-family: "Inter";
-  src: url(../vendor/inter_desktop/Inter-Bold.otf) format("truetype");
+  src: url(../vendor/inter_desktop/Inter-Medium.otf) format("truetype");
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 @font-face {

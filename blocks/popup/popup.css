@@ -9,7 +9,3 @@
         display: none;
     }
 }
-
-.popup:target {
-    display: block;
-}

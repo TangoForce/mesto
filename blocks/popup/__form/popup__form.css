@@ -1,5 +1,5 @@
 @media screen and (min-width: 320px) {
-    .popup__container {
+    .popup__form {
         font-family: 'Inter', Arial, sans-serif;
         width: 282px;
         max-height: 322px;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .popup__container {
+    .popup__form {
         width: 430px;
         max-height: 330px;
     }
