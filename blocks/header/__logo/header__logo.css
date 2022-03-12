@@ -4,7 +4,8 @@
         height: 24px;
         margin: 0;
         padding: 0 0 0 27px;
-        color: #FFFFFF;
+        background-color: #000000;
+
     }
 }
 
@@ -14,4 +15,8 @@
         height: 33px;
         padding: 0;
     }
+}
+
+.header__logo:hover {
+
 }

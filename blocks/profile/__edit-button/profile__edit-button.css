@@ -8,6 +8,7 @@
         object-fit: cover;
         background-repeat: no-repeat;
         background-position: center;
+        transition: opacity 1s easy;
     }
 }
 
@@ -17,4 +18,9 @@
         height: 24px;
         grid-area: button;
     }
+}
+
+.profile__edit-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
 }

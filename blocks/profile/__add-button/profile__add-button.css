@@ -10,6 +10,7 @@
         background-repeat: no-repeat;
         background-position: center;
         margin-top: 36px;
+        transition: opacity 1s easy;
     }
 }
 
@@ -18,4 +19,9 @@
         width: 150px;
         margin: 35px 0 35px 244px;
     }
+}
+
+.profile__add-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
 }

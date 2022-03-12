@@ -7,10 +7,11 @@
         background-repeat: no-repeat;
         background-position: center;
         background-image: url(../../../images/Close\ Icon.png);
-        background-color: #000000;
+        background-color: transparent;
         border: none;
         position: absolute;
         top: -36px;
+        transition: opacity 1s easy;
     }
 }
 
@@ -21,4 +22,9 @@
         top: -44px;
         right: -37px;
     }
+}
+
+.popup__close-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
 }
